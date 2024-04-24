@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 90px auto;
+    max-width: 280px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  #000000ff;
+    color: #ffffffff;
+}
+
+h1 {
+    color: #14213dff;
+}
+
+h2 {
+    color: #e5e5e5ff; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    display: block;
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    background-color: #e5e5e5ff;
+}
+
+button:hover {
+    background-color:  #14213dff;
+    color: #e5e5e5ff;
+}
+
+
+.mensagem {
+    background-color: #008000;
+    padding: 10px;
+    color: #000;
+    display: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
